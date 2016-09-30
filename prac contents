@@ -6,7 +6,6 @@ bind "o" "bot_place"
 
 bind "\" "give weapon_hegrenade;give weapon_flashbang;give weapon_smokegrenade;give weapon_molotov;give weapon_decoy;sv_infinite_ammo 2"
 
-bind "mouse3" "cast_ray"
 
 sv_cheats 1 
 bot_kick
@@ -25,6 +24,7 @@ mp_buytime 5000
 mp_startmoney 160000
 mp_buy_anywhere 1
 mp_restartgame 1
+mp_ignore_round_win_conditions 1
 
 clear
 
